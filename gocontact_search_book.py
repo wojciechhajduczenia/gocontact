@@ -7,7 +7,7 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 
-path = '/home/wojtekhaj/mindera/qa-sortable-challenge/solution/chromedriver'
+path = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 driver=webdriver.Chrome(path)
 driver.get("https://www.amazon.co.uk")
@@ -77,9 +77,9 @@ driver.find_element_by_id(insert_comment_button_id).click()
 if sign_in_title in driver.title:
 #sign in needed
     user_email_xpath="//input[@id='ap_email']"
-    user_email_existing="wojciech.hajduczenia@gmail.com"
+    user_email_existing="xxxxxxxxxxxxxxxxxxxx@xxxxxxxxxxx"
     user_password_xpath="//input[@id='ap_password']"
-    user_password_existing="xxxxx"
+    user_password_existing="xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     
     sign_in_button_id="signInSubmit"
     assert sign_in_title in driver.title
