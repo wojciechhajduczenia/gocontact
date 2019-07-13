@@ -17,7 +17,7 @@ XVFB configuration:
 su username -c /usr/bin/Xvfb :99 -ac -screen 0 1280x1024x24 -nolisten tcp &gt
 Selenium standalone server configuration:
 
-su $user -c /usr/bin/java -jar selenium_server_locstion -host 127.0.0.1 &gt
+su $user -c /usr/bin/java -jar selenium_server_location -host 127.0.0.1 &gt
 To run:
 
     download packages from this repository and place them in your folder
