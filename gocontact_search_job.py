@@ -5,7 +5,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
-path = '/home/wojtekhaj/mindera/qa-sortable-challenge/solution/chromedriver'
+path = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 driver=webdriver.Chrome(path)
 driver.get("https://www.amazon.jobs/en-gb")
