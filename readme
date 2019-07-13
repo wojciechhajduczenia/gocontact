@@ -22,9 +22,10 @@ To run:
 
     download packages from this repository and place them in your folder
     be sure to have sufficient permissions to start browser (chrome in this case) from command line ie.:/usr/bin/chromium-browser
-    fill in variable pointing to chrome webdriver location in python file: path = ''
+    fill in variable pointing to chrome webdriver location in python file: path = 'xxxxxxxx'
+    edit username and password variables whenever necessary marked with 'xxxxxxxxxxxxxx'
     to run the tests, type: python <file_name>.py
-    edit username and password variables whenever necessary 
+    
     
 Future improvements:
   unified file with all variables to be loaded during each execution
