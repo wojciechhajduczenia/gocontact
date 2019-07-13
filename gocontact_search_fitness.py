@@ -5,7 +5,7 @@
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 
-path = '/home/wojtekhaj/mindera/qa-sortable-challenge/solution/chromedriver'
+path = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 driver=webdriver.Chrome(path)
 driver.get("https://www.amazon.co.uk")
