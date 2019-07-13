@@ -4,7 +4,7 @@
 
 from selenium import webdriver
 
-path = '/home/wojtekhaj/mindera/qa-sortable-challenge/solution/chromedriver'
+path = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 driver=webdriver.Chrome(path)
 driver.get("https://www.amazon.co.uk")
@@ -16,9 +16,9 @@ driver.implicitly_wait(10)
 #sign in
 login_main_page_button_xpath="//div[@id='nav-tools']//span[@class='nav-line-2' and (text()='Account & Lists')]"
 user_email_xpath="//input[@id='ap_email']"
-user_email_existing="wojciech.hajduczenia@gmail.com"
+user_email_existing="xxxxxxxxxxxxxxxxxx@xxxxxxxxxxxxxx"
 user_password_xpath="//input[@id='ap_password']"
-user_password_existing="xxxxxxxxxxxxxxxx"
+user_password_existing="xxxxxxxxxxxxxxxxxxxxxxxxxx"
 sign_in_title="Amazon Sign In"
 sign_in_button_id="signInSubmit"
 
